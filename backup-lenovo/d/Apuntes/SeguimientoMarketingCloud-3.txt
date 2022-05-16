@@ -1,0 +1,14 @@
+Archivo en el SFTP
+- Se cargo correctamente archivo de prueba desde el SFTP.
+- 
+- (Siguiente)carga archivo produccion automaticamente.
+
+Capacitacion
+- Finalizar implementacion de offline para avvilas
+- Una vez con ese punto se determina una fecha tentativa para la Capacitacion
+
+Instacias nuevas
+- Crear instancias nuevas para FacilPass y Alpha
+- Replicar caracteristicas offline y online.
+- no se puede crear instacias offline para estas nuevas intacias, se deberian compartir con alguna de la ya 
+existentes.

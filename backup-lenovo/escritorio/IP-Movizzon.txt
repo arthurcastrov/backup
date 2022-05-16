@@ -1,0 +1,24 @@
+186.31.114.2/29 186.31.114.0/29 186.31.114.1  -  186.31.114.6
+201.184.18.2/29 201.184.18.0/29 201.184.18.1  -  201.184.18.6
+181.49.27.82/30 181.49.27.80/30 181.49.27.81  -  181.49.27.82
+
+
+Occiauto
+1 - inicio	84802	/occiauto/autogestionado
+2 - login	1623	/occiauto/autogestionado/login
+3 - autenticacion sms	356	/occiauto/autogestionado/autenticacion
+4 - OTP	495	/occiauto/autogestionado/otp
+5 - datos personales	77	/occiauto/autogestionado/datos-personales
+6 - datos loborales	60	/occiauto/autogestionado/datos-laborales
+7 - datos financieros 	155	/occiauto/autogestionado/datos-financieros
+8 - Credito aprobado	42 	/occiauto/autogestionado/credito-aprobado
+9 - Solicitud de credito enviada	9	/occiauto/autogestionado/proximos-pasos
+
+===============
+Tipo vehiculo	
+Carro Nuevo	197	
+Carro Usado	348
+Moto Nueva	44		
+Moto Usada	0
+
+

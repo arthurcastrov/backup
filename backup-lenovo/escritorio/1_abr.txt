@@ -1,0 +1,77 @@
+  
+  #btn_paquete_1991 {
+    border: solid 1px #fff;
+    color: #ffffff;
+    background-color: #ef0c1b;
+  }
+  
+  #btn_paquete_1991:hover {
+    border: solid 1px #ff0000;
+    background-color: #ff0000;
+  }
+  
+  .maxymiser-titile-plan-plus {
+    background: #ef0c1b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  #idPanelSeleccionado_0 {
+    border-top: #b0bec5 solid 6px;
+  }
+  
+  #idPanelSeleccionado_1.panel.outstandingBox {
+    border-top: #ef0c1b solid 6px;
+  }
+
+ 
+  .newUpsellPanel .plansPanel .panel.outstandingBox, .newUpsellPanel .plansPanel .panel:hover {
+    border-top: #b0bec5 solid 6px;
+  }
+
+</style>
+<script>
+spa.when(campaign.scope.getConditions(element.Name)).then(function() {
+  if(document.querySelector(".maxymiser-titile-plan-plus") === null) {
+    let topTitle = document.createElement("span");
+    topTitle.setAttribute("class", "maxymiser-titile-plan-plus");
+    topTitle.textContent = "Mejor Opción";
+    document.querySelector("#idPanelSeleccionado_1").prepend(topTitle);
+    let planFreeContainer = document.querySelector("#idPanelSeleccionado_0");
+    let planUltimateContainer = document.querySelector("#idPanelSeleccionado_2");
+    
+    planFreeContainer.onmouseover = function(event) {
+  	  document.querySelector("#idPanelSeleccionado_1").style = "border-top: 6px solid #ef0c1b";
+    }
+    
+    planUltimateContainer.onmouseover = function(event) {
+  	  document.querySelector("#idPanelSeleccionado_1").style = "border-top: 6px solid #ef0c1b";
+    }
+    
+    let featureUltimate = document.createElement("span");
+    featureUltimate.innerHTML = '<span><span><img src="/miespacio/img/new-experience/interface-essential-certificate-checkmark.svg" class="Interface-Essentialcertificate-checkmark"></span><p>Sube hasta 20 fotos de tu vehículo.</p></span>';
+    document.querySelectorAll('.planQqualities')[2].append(featureUltimate);
+  }
+  
+  /*cambio copys plan Plus*/
+  document.querySelector('#idBodySeleccionado_1 > div > span:nth-child(2) > p').textContent = "¡Tu anuncio estará visible hasta que lo vendas!";
+  document.querySelector('#idBodySeleccionado_1 > div > span:nth-child(3) > p').textContent = "Haz que vean tu vehículo hasta 5 veces más";
+  document.querySelector('#idBodySeleccionado_1 > div > span:nth-child(5) > p').textContent = "Sube hasta 20 fotos de tu vehículo.";
+  document.querySelector("#idBodySeleccionado_1 > h3:nth-child(5)").innerHTML ='<del style="font-size:16px; font-weight:300; line-height: 0;">$ 59.900</del><br><h3 style="color:#ef0c1b; line-height: 0;">$ 29.900</h3>'
+  /*cambio copys plan Ultimate*/
+  document.querySelector("#idBodySeleccionado_2 > div > span:nth-child(1) > p").textContent = "Vende tu vehículo más rápido y obtén mejores ofertas";
+  document.querySelector("#idBodySeleccionado_2 > div > span:nth-child(2) > p").textContent = "Tu anuncio será el primero en las búsquedas.";
+  document.querySelector("#idBodySeleccionado_2 > div > span:nth-child(3) > p").textContent = "¡Tu anuncio estará visible hasta que lo vendas!";
+  document.querySelector("#idBodySeleccionado_2 > div > span:nth-child(4) > p").textContent = "Haz que vean tu vehículo hasta 10 veces más";
+  document.querySelector("#idBodySeleccionado_2 > div > span:nth-child(5) > p").textContent = "Estadísticas exclusivas de tu anuncio";
+  document.querySelector("#idBodySeleccionado_2 > h3:nth-child(5)").innerHTML ='<del style="font-size:16px; font-weight:300; line-height: 0;">$ 129.900</del><br><h3 style="color:#ef0c1b; line-height: 0;">$ 64.900</h3>'
+ 
+  /*cambio copys botones*/
+  document.querySelector("#btn_paquete_1453").innerHTML = 'Lo quiero<span class="glyphicon glyphicon-chevron-right" style="margin-left: 10px;"></span>';
+  document.querySelector("#btn_paquete_1991").innerHTML = 'Lo quiero<span class="glyphicon glyphicon-chevron-right" style="margin-left: 10px; color: #fff;"></span>';
+  document.querySelector("#btn_paquete_1992").innerHTML = 'Lo quiero<span class="glyphicon glyphicon-chevron-right" style="margin-left: 10px;"></span>';
+  document.querySelector("div.container-fluid.plansPanel > h2").textContent = "¡Selecciona un plan y vende tu vehículo ya!";
+//UCB JS Placeholder//
+});</script>

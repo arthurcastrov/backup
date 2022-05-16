@@ -1,0 +1,51 @@
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f001e0031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/login	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00210031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/comercial/Autenticacion	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00220031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/otp	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00230031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/datos-personales	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00240031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/datos-laborales	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00250031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/datos-financieros	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00260031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/credito-aprobado	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00270031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/proximos-pasos	Audiencia	<script type="text/javascript" src="https://cs.mathilde-ads.com/tracing/0134641f00280031" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/credito-aprobado	Conversión	<script type="text/javascript" src="https://endpoint1.mathilde-ads.com/?t=convs2c&step=click&convid=14" async></script>
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/proximos-pasos	Conversión	<script type="text/javascript" src="https://endpoint1.mathilde-ads.com/?t=convs2c&step=success" async></script>
+ 
+
+https://www.bancodeoccidente.com.co/occiauto/autogestionado
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/login
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/autenticacion celular
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/autenticacion e-mail
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/otp
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/datos-personales
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/datos-laborales
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/datos-financieros
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/credito-no-aprobado * no aprobado
+https://www.bancodeoccidente.com.co/occiauto/autogestionado/credito-aprobado
+https://www.bancodeoccidente.com.co/occiauto/Autogestionado/proximos-pasos
+autogestionado/error-negocio***
+
+
+function loadScript(src) {
+  let script = document.createElement('script');
+  script.src = src;
+  script.async = false;
+  document.body.append(script);
+}
+
+// long.js se ejecuta primero a causa del async=false
+loadScript("/article/script-async-defer/long.js");
+loadScript("/article/script-async-defer/small.js");
+
+
+let script = document.createElement('script');
+script.setAttribute('src', 'https://endpoint2.mathilde-ads.com/?c=res&m=async');
+(document.getElementsByTagName("head")[0] || document.documentElement ).appendChild(script);
+console.log("script attached");
+
+Request URL: https://emailbancopopular.com.co/pub/cct?_ri_=X0Gzc2X%3DAQpglLjHJlDQGl6n85Mlv5zeDzgzdhwmqIOA6za&_ei_=Ehk_LBoyS92lx7Z1-2xwz28
+Request URL: https://emailbancopopular.com.co/pub/cct?_ri_=X0Gzc2X%3DAQpglLjHJlDQGl6n85Mlv5zeDzgzdhwmqIOA6za&_ei_=Ehk_LBoyS92lx7Z1-2xwz28
+
+
+script-src:	https://cs.ssp.mathilde-ads.com
+img-src:	https://cs2.mathilde-ads.com
+

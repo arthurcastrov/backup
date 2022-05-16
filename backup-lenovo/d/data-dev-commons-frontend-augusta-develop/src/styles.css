@@ -1,0 +1,297 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --colorFuccia: #FF0041;
+    --colorMorado: #8F00FF;
+    --colorVerde:#00E3CC;
+    --colorGris: #191919;
+    --colorMorado2: #6C00FF;
+    --colorNegro: #000000;
+    --colorFuente: #FFFFFF;
+    --CamptonLight: 'Campton-Light';
+    --CamptonMedium: 'Campton-Medium';   
+}
+
+@font-face{
+    font-family: Campton-Light;
+    font-style: normal;
+    src: url(./assets/fonts/Campton-Light.otf);
+    src: url(./assets/fonts/Campton-Light.ttf);
+}
+
+@font-face{
+    font-family: Campton-Light;
+    font-style: italic;
+    src: url(./assets/fonts/Campton-LightItalic.otf);
+    src: url(./assets/fonts/Campton-LightItalic.ttf);
+}
+
+@font-face{
+    font-family: Campton-Medium;
+    font-style: normal;
+    src: url(./assets/fonts/Campton-Medium.otf);
+    src: url(./assets/fonts/Campton-Medium.ttf);
+}
+
+@font-face{
+    font-family: Campton-Medium;
+    font-style: italic;
+    src: url(./assets/fonts/Campton-MediumItalic.otf);
+    src: url(./assets/fonts/Campton-MediumItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--CamptonLight);
+    color: var(--colorFuente);    
+    background: var(--colorNegro);
+}
+
+header {
+    /* border: 1px solid purple; */
+    height: 131px;
+}
+
+.header {
+    /* border: 1px solid purple; */
+    position: fixed;
+    z-index:1;
+    top: 0px;
+    box-sizing: border-box ;
+    width: 100vw;
+    padding-left: 40px;
+    padding-right: 60px;
+    height: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--colorNegro);
+}
+
+.header > img {
+    width: 109px;
+    height: 71px;
+}
+
+.header-button {
+    width: 183px;
+    border-radius: 5px;
+    font-family: var(--CamptonMedium);
+    font-size: 18px;
+    text-align: center;
+    line-height: 41px;
+    color: var(--colorFuente);
+    background: var(--colorMorado2);
+}
+
+.header-button > img {
+    margin-left: 10px;
+    width: 6px;
+    height: 10px;
+}
+
+
+
+.container-up {
+    /* border: 2px solid darkcyan; */
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+    .container-up > img {
+        width: 100%;
+        min-width: 701px;
+        max-width: 63%; 
+        height: auto;
+    }
+
+    .container-up > p {
+        /* border: 1px solid purple; */
+        position: absolute;
+        max-width: 63%; 
+        height: 40%;
+        top: 50%;
+        right: 60px;
+        transform: translate(0, -74%);
+        font-size: calc(1.9em + 1.2vw);
+        text-align: right;
+        letter-spacing: 0;
+        line-height: 150%;
+    }
+
+.container-down {
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    min-height: 307px;
+    box-sizing: border-box;
+    padding: 29px 60px 40px 0px;
+}
+
+.items-down {
+    /* border: 1px solid darkcyan; */
+    display: flex; 
+    flex-direction: column
+}
+
+    .items-down > h3 {
+        font-family: var(--CamptonMedium);
+        font-size: calc(.5em + 1vw);
+        margin-left: 151px;
+    }
+
+.title-down-left {
+    color: var(--colorVerde);
+}
+
+.title-down-center {
+    color: var(--colorMorado);
+}
+
+.title-down-right {
+    color: var(--colorFuccia);
+}
+
+.items-down-content {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+
+    .items-down-content > img {
+        align-self: flex-start;
+        border-radius: 5px;
+        width: 46px;
+        height: 47px;
+        padding: 12px 12px 11px 12px;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .img-down-left {
+        background: var(--colorVerde);
+    }
+
+    .img-down-center {
+        background: var(--colorMorado);
+    }
+
+    .img-down-right {
+        background: var(--colorFuccia);
+    }
+
+    .items-down-content > p {
+        display: inline-block;
+        font-size: 18px;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+.footer {
+    /* border: 1px solid purple; */
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0px 60px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--colorGris);
+}
+
+    .footer > img {
+        width: 65px;
+        height: 29px;
+    }
+
+    @media (max-width: 768px) {
+
+        header {
+            height: 85px;
+        }
+        
+        .header {
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 85px;
+        }
+        
+        .header-button {
+            width: 138px;
+            line-height: 31px;
+        }
+    
+        .container-up {
+            position: static;
+        }
+    
+        .container-up > img {
+            min-width: 320px;
+            max-width: 100%;
+        }
+    
+        .container-up > p {
+            margin: 0px 20px 0px 20px;
+            position: static;
+            max-width: 100%; 
+            transform: translate(0, 0); 
+            font-size: 1.75rem;
+            line-height: 100%; 
+        }
+    
+        .container-down{
+            display: flex;
+            flex-direction: column;
+            padding: 64px 20px 31px 0px;
+       }
+    
+       .items-down-content {
+            display: flex;
+            box-sizing: border-box;
+            padding: 22px 0px 45px 0px;
+        }
+
+            .items-down-content > img {
+                margin-left: 20px;
+            }
+
+            .items-down-content > .img-down-center {
+                margin-left: 40px;
+            }
+
+            .items-down-content > .items-down-content-p {
+                margin-left: 20px;   
+            }
+
+            .items-down > h3 {
+                margin-left: 131px;
+            }
+
+            .items-down > .title-down-center{
+                margin-left: 20px
+            }
+        
+        .items-down-content-center{
+            flex-direction: row-reverse;
+        }
+    
+        .footer {
+            padding: 0px 20px 0px 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 11px;
+        }
+
+        .footer > img {
+            width: 52px;
+            height: 23px;
+        }
+        
+        
+        
+        
+    }
+    

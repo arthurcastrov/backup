@@ -1,0 +1,9 @@
+SELECT param.key, param.value FROM `digital-carroya-project.analytics_260157242.events_intraday_20220329` as ga4,
+UNNEST(ga4.event_params) as param, UNNEST
+WHERE event_name = "page_view" LIMIT 1000
+
+SELECT param.key, param.value.string_value FROM `digital-carroya-project.analytics_260157242.events_intraday_20220329` as ga4,
+UNNEST(ga4.event_params) as param
+WHERE event_name = "page_view" and param.key = "page_path" LIMIT 1000
+
+https://uat.carroya.com/miespacio/publicar/pago/index.do?uname=testadmin%40carroya.com&gateway=true&token=%242a%2410%24EMHW7G7S5iTGOo0p.OOxtu0d8AKLvqPkON%2FyqX%2FXkPuVdIRKzCmcS&service=https%3A%2F%2Fuat.carroya.com%2Fmiespacio%2Fpublicar%2Fpago%2Findex.do

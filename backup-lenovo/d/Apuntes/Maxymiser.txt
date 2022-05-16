@@ -1,0 +1,14 @@
+MMExperience - indica la experiencia (campaña) que se esta ejecutando. 
+
+vistor.getServerAttrs () ["Edad"]
+
+Commands to the Maxymiser tag can be entered as URL parameters. All the supported out-of-the-box parameters can be set in the following format:
+?mmcore.{name}={value} => ejemplo ?mmcore.un=debug,qa activa qa tools y debug. 
+?mmcore.un={utilities}
+desde consola se puede usar -> mmsystem.enableUtility()
+
+pasar customatributos por URL 
+encodeURIComponent( 'Name1=Value1;Name2=Value2' );
+?mmcore.uat=Name1%3DValue1%3BName2%3DValue2
+
+ 

@@ -1,0 +1,10 @@
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-012JSQYDKK',{'debug_mode':true});
+
+gtag('event', 'custom_event_click', {
+  cat: 'categoria',
+  act: 'acción',
+  label: 'Etiqueta',
+})

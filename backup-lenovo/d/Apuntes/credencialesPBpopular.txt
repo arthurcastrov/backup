@@ -1,0 +1,63 @@
+A TODA HORA S A
+usuario PB BANCO POPULAR DEV	
+19198659 ["CREDIT_CARD", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+33210989 ["CREDIT_CARD", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+73009180 ["CREDIT_CARD", "CURRENT_ACCOUNT", "CERTIFIED_DEPOSIT_TERM", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+19198659 con domiliación ["CREDIT_CARD", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+19122111 ["CREDIT_CARD", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+1026280603 ["CREDIT_CARD", "CURRENT_ACCOUNT", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+1000805058 con pagos token ["CREDIT_CARD", "CURRENT_ACCOUNT", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+19122111 sin pagos ["FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+1033714738 ["CREDIT_CARD", "CERTIFIED_DEPOSIT_TERM", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+45617 pass 1978 ["CREDIT_CARD", "CURRENT_ACCOUNT", "FIDUCIARY", "FREE_DESTINATION", "PAYROLLLOAN"]
+
+usuario PB BANCO POPULAR
+1026272758 -2020-
+
+PERFIL DIGITAL
+CC 1024300125 -Fortalecimiento_Digital (Perfil Bajo)
+CC 1025325252 -Profundizacion_Digital (Perfil Bajo)
+CC 19122111 -Altos_Digitales (Perfil Medio) ADV4
+CC 33210989 -Medios_Digitales (Perfil Alto) (editado) ADV3 
+======================================================
+bancamovil
+4046234 clave 
+2022
+
+1026272758
+2020
+
+19198659
+compra-cartera/exito
+
+https://stags.bluekai.com
+https://*.bluekai.com
+
+cédula de ciudadanía BB
+cédula de extranjería BD
+tarjeta de identidad UE
+
+virtualPage=/login
+virtualPage=/login/enrolamiento
+virtualPage=/login/enrolamiento/ValidaClaveUniversal
+virtualPage=/induccion
+virtualPage=/ -> tus productos
+virtualPage=/pagosv2
+	virtualPage=/pagosv2/obligaciones-financieras
+	virtualPage=/pagosv2/servicios-publicos
+	virtualPage=/pagos-impuestos/a-quien
+	virtualPage=/pago-pila/donde
+virtualPage=/transferencia
+	virtualPage=/transferencia/cuentas-inscritas
+virtualPage=/documentos
+	virtualPage=/documentos/extractos
+	virtualPage=/documentos/certificados_productos
+	virtualPage=/documentos/certificados_tributarios
+virtualPage=/contacto
+virtualPage=/activar-tarjeta/crear
+virtualPage=/cambiar-password
+
+/apertura-cdt/simulador-cdt
+/apertura-cdt/caracteristicas
+/apertura-cdt/autorizaciones
+/apertura-cdt/confirmar-producto	

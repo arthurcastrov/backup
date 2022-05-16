@@ -1,0 +1,13 @@
+ionic start -> inicia un proyecto
+ionic serve -> sube el servidor para ejecutar app local
+ionic build -> construye aplicacion web (creacion carpeta www)
+
+install @capacitor/core @capacitor/cli -> instala capacitor 
+npx cap init -> genera la configuracion de capacitor en el proyecto
+npm instal @capacitor/android -> instala dependencias de android
+npx cap add android -> genera proyecto android
+
+onic capacitor open android
+npx open android -> abre el proyectocon android studio
+
+ionic sync android

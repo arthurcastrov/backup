@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+main {
+  width: 920px;
+  height: 518px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./assets/book.webp");
+  background-repeat: no-repeat;
+}
+.carta-box {
+  margin: 100px;
+  width: 200px;
+  height: 250px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.carta-box:hover .carta {
+  transform: rotateY(180deg);
+}
+
+.carta {
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+}
+
+.cara {
+  position: absolute;
+  backface-visibility: hidden;
+  background-color: beige;
+}
+
+.cara.detras {
+  transform: rotateY(180deg);
+}
+
+.cara-word {
+  width: 200px;
+  height: 250px;
+  background-color: #b6d7f4;
+}
+
+.set-up {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.custom-select select {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: aliceblue;
+  background-color: #68b1f1;
+}
+
+input {
+  width: 198px;
+  height: 50px;
+  font-size: 18px;
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  background-color: #f17381;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+input:hover {
+  background-color: #f36374;
+}
